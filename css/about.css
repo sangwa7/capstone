@@ -23,6 +23,59 @@
   --body_font: "Lato", sans-serif;
   --trans: all 0.2s ease-in-out;
 }
+
+.mobile-menu {
+  padding: 0;
+  display: none;
+  position: fixed;
+  width: 100%;
+  z-index: 232;
+  background-color: var(--white);
+  height: 700px;
+  transition: 0.5s ease-in;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: var(--dark);
+}
+
+.menu-text a {
+  text-decoration: none;
+}
+
+.mobile-menu .close-icon {
+  float: right;
+  margin-right: 40px;
+  margin-top: 30px;
+  width: 5%;
+}
+
+.mobile-menu-list ul {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 24px;
+  left: 40px;
+  right: 68px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: var(--dark);
+  top: calc(20% - 24px / 2);
+  list-style-type: none;
+  width: 82%;
+}
+
+.mobile-menu-list ul li {
+  border-bottom: 1px solid #fff5e1;
+  padding: 10px 20px;
+  color: var(--dark);
+  text-align: left;
+}
+
 body {
   background-color: #f5f5f5;
   text-align: center;
@@ -62,7 +115,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 22px;
   font-weight: 500;
-  margin-bottom: 5px;
+  margin-top: 10%;
 }
 
 .heading .title-2 {
@@ -72,6 +125,7 @@ body {
   font-weight: bolder;
   margin-bottom: 20px;
   padding: 2%;
+  margin-top: 1%;
 }
 
 .heading .desc {
@@ -318,6 +372,79 @@ body {
     display: none;
   }
 
+  .desk-menu .menu-logo {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .desk-menu .menu-logo img {
+    height: 100%;
+  }
+
+  .desk-header .desk-menu {
+    height: 80px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    padding: 0 15%;
+  }
+
+  .desk-menu .menu-list {
+    transition: var(--trans);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .desk-menu .menu-list ul {
+    list-style: none;
+    float: left;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 6%;
+    margin-top: 20px;
+  }
+
+  .desk-menu .menu-list ul li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 6%;
+    color: var(--dark);
+    font-family: var(--body_font);
+  }
+
+  .desk-menu .menu-list ul a {
+    text-decoration: none;
+    padding: 4px 10px;
+    color: var(--dark);
+    border-bottom: 1px solid #d3d3d35b;
+  }
+
+  .desk-menu .menu-list .menu-btn {
+    width: 180px;
+    margin-top: 10px;
+    height: 30px;
+    border: 2px solid var(--primary);
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .desk-menu .menu-list .menu-btn a {
+    color: var(--primary);
+    text-decoration: none;
+    border: none;
+  }
+
+  .desk-menu .menu-list ul a:hover {
+    color: var(--primary);
+  }
+
   .desk-header {
     height: 120px;
     display: block;
@@ -331,6 +458,7 @@ body {
     align-items: center;
     height: 40px;
     background-color: #3e3e3e;
+    padding-right: 7%;
   }
 
   .desk-header .desk-social-contect ul {
@@ -350,30 +478,6 @@ body {
     font-family: var(--title_font);
   }
 
-  .desk-header .desk-menu {
-    height: 80px;
-    background-color: var(--white);
-    display: flex;
-    flex-direction: row;
-    padding: 0 15%;
-    justify-content: space-around;
-  }
-
-  .desk-menu .menu-logo {
-    height: 100%;
-    width: 30%;
-  }
-
-  .desk-menu .menu-logo img {
-    height: 100%;
-  }
-
-  .desk-menu .menu-list {
-    background-color: var(--white);
-    width: 70%;
-    height: 100%;
-  }
-
   .heading {
     display: flex;
     flex-direction: column;
@@ -383,7 +487,7 @@ body {
   .heading .title-2 {
     font-family: "Poppins", sans-serif;
     font-size: 56px;
-    margin-top: 5%;
+    margin-top: 1%;
     width: 50%;
   }
 

@@ -9,9 +9,25 @@
     <title>Rwanda Day Summit | About</title>
 </head>
 <body>
+  <div class="mobile-menu">
+    <img
+      class="close-icon"
+      src="mobile-assets/Icon.svg"
+      alt=""
+      onclick="mobileMenu()"
+    />
+    <div class="mobile-menu-list">
+      <ul>
+        <li><a href="index.html" onclick="menuLink()"> Home </a></li>
+        <li><a href="#about-me" onclick="menuLink()"> Carriculum </a></li>
+        <li><a href="#contact-me" onclick="menuLink()"> Join </a></li>
+        <li><a href="#contact-me" onclick="menuLink()"> News </a></li>
+      </ul>
+    </div>
+  </div>
     <div class="nav-bar">
         <div class="nav-humberger">
-            <img src="mobile-assets/menu3.png" alt="">
+            <img src="mobile-assets/menu3.png" onclick="mobileMenu()" alt="">
         </div>
     </div>
     <section class="desk-header">
@@ -38,10 +54,23 @@
                 </li>
               </ul>
         </div>
+        
         <div class="desk-menu">
-            <div class="menu-logo"> <img src="./desktop assets/COYSLH0UEAArcK7.jpg" alt=""> </div>
-            <div class="menu-list"> Now</div>
+            <div class="menu-logo"> <a href="index.html"><img src="./desktop assets/COYSLH0UEAArcK7.jpg" alt=""></a> </div>
+            <div class="menu-list"> 
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Curriculum</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">News</a></li>
+                  </ul>
+                  <div class="menu-btn">
+                    <a href="#">CC Campaign</a>
+                  </div>
+            </div>
         </div>
+
+
     </section>
     <section class="heading">
 
@@ -119,5 +148,6 @@
             </p>
           </div>
     </section>
+    <script src="menuDisplay.js"></script>
 </body>
 </html>

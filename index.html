@@ -10,9 +10,25 @@
     <title>Home page Rwanda Day</title>
 </head>
 <body>
+    <div class="mobile-menu">
+        <img
+          class="close-icon"
+          src="mobile-assets/Icon.svg"
+          alt=""
+          onclick="mobileMenu()"
+        />
+        <div class="mobile-menu-list">
+          <ul>
+            <li><a href="about.html" onclick="menuLink()"> About </a></li>
+            <li><a href="#about-me" onclick="menuLink()"> Carriculum </a></li>
+            <li><a href="#contact-me" onclick="menuLink()"> Join </a></li>
+            <li><a href="#contact-me" onclick="menuLink()"> News </a></li>
+          </ul>
+        </div>
+      </div>
     <div class="nav-bar">
         <div class="nav-humberger">
-            <img src="mobile-assets/menu3.png" alt="">
+            <img src="mobile-assets/menu3.png"  onclick="mobileMenu()" alt="">
         </div>
     </div>
     <section class="desk-header">
@@ -40,8 +56,18 @@
               </ul>
         </div>
         <div class="desk-menu">
-            <div class="menu-logo"> <img src="./desktop assets/COYSLH0UEAArcK7.jpg" alt=""> </div>
-            <div class="menu-list"> Now</div>
+            <div class="menu-logo"> <a href="index.html"><img src="./desktop assets/COYSLH0UEAArcK7.jpg" alt=""></a> </div>
+            <div class="menu-list"> 
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Curriculum</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">News</a></li>
+                  </ul>
+                  <div class="menu-btn">
+                    <a href="#" class="menu-btn">CC Campaign</a>
+                  </div>
+            </div>
         </div>
     </section>
     
@@ -78,7 +104,7 @@
                 Intro
             </div>
             <div class="program-description">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Thousands of Rwandans and friends of Rwanda from across Europe and beyond convened in Bonn
             </div>
         </div>
 
@@ -90,7 +116,7 @@
                 Welcome
             </div>
             <div class="program-description">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Ndi Umunyarwanda and Our Identity Journey, Rwanda Works! The Land of a million possibilities and opportunities
             </div>
         </div>
 
@@ -102,7 +128,7 @@
                 Sharing Update
             </div>
             <div class="program-description">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Participants discussed Rwanda’s socio-economic progress and proposed solutions to current and future challenges.
             </div>
         </div>
 
@@ -114,7 +140,7 @@
                 Party
             </div>
             <div class="program-description">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                This edition had a special feature called the “Career Corner”;
             </div>
         </div>
         <div class="program-bar">
@@ -125,7 +151,7 @@
                 Dinner
             </div>
             <div class="program-description">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Over the last editions, Rwanda Day has brought together more than 35,000 Rwandans and Friends of Rwanda living in Europe,.
             </div>
         </div>
     </div>
@@ -135,8 +161,8 @@
         <div class="speakers-title"> Featured speakers</div>
         <div class="speakers-line"> </div>
         <div class="speaker-section">
-        <div class="speaker-bar">
-            <div class="speaker-image">  <img src="./general-assets/avatar.svg" alt=""> </div>
+        <!-- <div class="speaker-bar"> -->
+          <!--  <div class="speaker-image">  <img src="./general-assets/avatar.svg" alt=""> </div>
             <div class="speaker-info"> 
                 <h3> Arthur Nkusi</h3>
                 <h5> Director of Multiplexing</h5>
@@ -146,32 +172,33 @@
             </div>
         </div>
         <div class="speaker-bar">
-            <div class="speaker-image"> <img src="./general-assets/avatar1.svg" alt=""> </div>
+             <div class="speaker-image"> <img src="./general-assets/avatar1.svg" alt=""> </div>
             <div class="speaker-info"> 
-                <h3> Arthur Nkusi</h3>
-                <h5> Director of Multiplexing</h5>
+                <h3> Vicent BIRUTA </h3>
+                <h5> Minister of Social Affair</h5>
                 <div class="speaker-line"></div>
-                <p>  Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                <p> Mr. Thierry Dufresne and Ms. Sonia Roland are starting the OFA-ARDI BEE Academy in Rwanda. </p>
             </div>
         </div>
         <div class="speaker-bar">
             <div class="speaker-image"> <img src="./general-assets/avatar2.svg" alt=""> </div>
             <div class="speaker-info"> 
-                <h3> Arthur Nkusi</h3>
-                <h5> Director of Multiplexing</h5>
+                <h3> Cedrick Drik</h3>
+                <h5> Image Creation</h5>
                 <div class="speaker-line"></div>
-                <p>  Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                <p>  17 Février, 2022 En marge du Sommet Union européenne-Union africaine qui débutera </p>
             </div>
         </div>
         <div class="speaker-bar">
             <div class="speaker-image"> <img src="./general-assets/avatar3.svg" alt=""> </div>
             <div class="speaker-info"> 
-                <h3> Arthur Nkusi</h3>
-                <h5> Director of Multiplexing</h5>
+                <h3> Hope creations </h3>
+                <h5> Minister of MINICOM</h5>
                 <div class="speaker-line"></div>
-                <p>  Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
-            </div>
-        </div>
+                <p> Février 14, 2022- Le Ministre Vincent Biruta a rencontré Antoine Thomas Nicéphore Fylla Saint-Eudes, </p>
+            </div> -->
+        <!-- </div>  -->
+        <div class="grid"></div>
     </div>
         
     </section>
@@ -207,6 +234,7 @@
             </p>
           </div>
     </section>
- 
+            <script src="menuDisplay.js"></script>
+            <script src="dataStore.js"></script>
 </body>
 </html>
