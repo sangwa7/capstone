@@ -1,7 +1,7 @@
 {
   "name": "capstone",
   "version": "1.0.0",
-  "description": "",
+  "description": "Capstone project for Module 1 At Microverse",
   "main": "index.js",
   "dependencies": {
     "abab": "^2.0.5",
@@ -716,7 +716,7 @@
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.25.4",
-    "hint": "^6.1.9",
+    "hint": "^6.1.10",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
@@ -727,5 +727,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sangwa7/capstone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sangwa7/capstone/issues"
+  },
+  "homepage": "https://github.com/sangwa7/capstone#readme"
 }
