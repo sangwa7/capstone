@@ -1,240 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet"  />
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Poppins"
+  />
+  <link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Cocogoose"
+/>
+<link
+rel="stylesheet"
+href="https://fonts.googleapis.com/css?family=Lato"
+/>
+<link
+rel="stylesheet"
+href="https://fonts.googleapis.com/css?family=Inter"
+/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <title>Home page Rwanda Day</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="mobile-menu">
-        <img
-          class="close-icon"
-          src="mobile-assets/Icon.svg"
-          alt=""
-          onclick="mobileMenu()"
-        />
-        <div class="mobile-menu-list">
+      <img
+        class="close-icon"
+        src="mobile-assets/Icon.svg"
+        alt=""
+        onclick="mobileMenu()"
+      />
+      <div class="mobile-menu-list">
+        <ul>
+          <li><a href="about.html" onclick="menuLink()"> About </a></li>
+          <li><a href="#about-me" onclick="menuLink()"> Carriculum </a></li>
+          <li><a href="#contact-me" onclick="menuLink()"> Join </a></li>
+          <li><a href="#contact-me" onclick="menuLink()"> News </a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="nav-bar">
+      <div class="nav-humberger">
+        <img src="mobile-assets/menu3.png" onclick="mobileMenu()" alt="" />
+      </div>
+    </div>
+    <div class="desk-header">
+      <div class="desk-social-contect">
+        <ul>
+          <li>
+            <a href="https://facebook.com/sangwa7">
+              <i class="bx bxl-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/sangwa7">
+              <i class="bx bxl-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#"> Change Language </a>
+          </li>
+          <li>
+            <a href="#"> My Page </a>
+          </li>
+          <li>
+            <a href="#"> Logout </a>
+          </li>
+        </ul>
+      </div>
+      <div class="desk-menu">
+        <div class="menu-logo">
+          <a href="index.html"
+            ><img src="desktop-assets/logo.jpg" alt=""
+          /></a>
+        </div>
+        <div class="menu-list">
           <ul>
-            <li><a href="about.html" onclick="menuLink()"> About </a></li>
-            <li><a href="#about-me" onclick="menuLink()"> Carriculum </a></li>
-            <li><a href="#contact-me" onclick="menuLink()"> Join </a></li>
-            <li><a href="#contact-me" onclick="menuLink()"> News </a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Curriculum</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">News</a></li>
           </ul>
+          <div class="menu-btn">
+            <a href="#" class="menu-btn">CC Campaign</a>
+          </div>
         </div>
       </div>
-    <div class="nav-bar">
-        <div class="nav-humberger">
-            <img src="mobile-assets/menu3.png"  onclick="mobileMenu()" alt="">
-        </div>
     </div>
-    <section class="desk-header">
-        <div class="desk-social-contect">
-            <ul>
-                <li>
-                  <a href="https://facebook.com/sangwa7">
-                    <i class="bx bxl-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/sangwa7">
-                    <i class="bx bxl-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#"> Change Language </a>
-                </li>
-                <li>
-                  <a href="#"> My Page </a>
-                </li>
-                <li>
-                  <a href="#"> Logout </a>
-                </li>
-              </ul>
-        </div>
-        <div class="desk-menu">
-            <div class="menu-logo"> <a href="index.html"><img src="./desktop assets/COYSLH0UEAArcK7.jpg" alt=""></a> </div>
-            <div class="menu-list"> 
-                <ul>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#">Curriculum</a></li>
-                    <li><a href="#">Join</a></li>
-                    <li><a href="#">News</a></li>
-                  </ul>
-                  <div class="menu-btn">
-                    <a href="#" class="menu-btn">CC Campaign</a>
-                  </div>
-            </div>
-        </div>
-    </section>
-    
+
     <section class="heading">
-        <div class="title-1">
-            <span>"Hello Sharing World"</span>
-        </div>
-        <div class="title-2">
-            Rwanda Day Summit 2020
-        </div>
-        <div class="desc">
-            An amazing event on hand, are you Ready? 
-            This is a trumendous moment we have with Rwandesse people in German, Our hour guest was his exelency Paul KAGAME.
-        </div>
-        <div class="time">
-            2019.08.11(Mon) ~ 14(Wed)
-        </div>
-        <div class="venue">
-            @Munich, Inkingi Hall. St 102 VM
-        </div>
+      <div class="title-1">
+        <span>"Hello Sharing World"</span>
+      </div>
+      <div class="title-2">
+        <h1>Rwanda Day Summit 2020</h1>
+      </div>
+      <div class="desc">
+        <p>
+          An amazing event on hand, are you Ready? This is a trumendous moment
+          we have with Rwandesse people in German, Our hour guest was his
+          exelency Paul KAGAME.
+        </p>
+      </div>
+      <div class="time">
+        <h4>2019.08.11(Mon) ~ 14(Wed)</h4>
+      </div>
+      <div class="venue">
+        <h6>@Munich, Inkingi Hall. St 102 VM</h6>
+      </div>
     </section>
-    <section class="main-program">
-        <div class="program-main-title">
-            Main Program
-        </div>
-        <div class="program-line">
-        </div>
-        <div class="program">
+    <div class="main-program">
+      <div class="program-main-title">
+        <span> Main Program </span>
+      </div>
+      <div class="program-line"></div>
+      <div class="program">
         <div class="program-bar">
-            <div class="program-icon">
-                <img src="./general-assets/light-bulb.png" alt = "">
-            </div>
-            <div class="program-title">
-                Intro
-            </div>
-            <div class="program-description">
-                Thousands of Rwandans and friends of Rwanda from across Europe and beyond convened in Bonn
-            </div>
-        </div>
-
-        <div class="program-bar">
-            <div class="program-icon">
-                <img src="./general-assets/handshake.png" alt="">
-            </div>
-            <div class="program-title">
-                Welcome
-            </div>
-            <div class="program-description">
-                Ndi Umunyarwanda and Our Identity Journey, Rwanda Works! The Land of a million possibilities and opportunities
-            </div>
-        </div>
-
-        <div class="program-bar">
-            <div class="program-icon">
-                <img src="./general-assets/refresh.png" alt="">
-            </div>
-            <div class="program-title">
-                Sharing Update
-            </div>
-            <div class="program-description">
-                Participants discussed Rwanda’s socio-economic progress and proposed solutions to current and future challenges.
-            </div>
-        </div>
-
-        <div class="program-bar">
-            <div class="program-icon">
-                <img src="./general-assets/confetti.png" alt="">
-            </div>
-            <div class="program-title">
-                Party
-            </div>
-            <div class="program-description">
-                This edition had a special feature called the “Career Corner”;
-            </div>
-        </div>
-        <div class="program-bar">
-            <div class="program-icon">
-                <img src="./general-assets/dinner.png" alt="">
-            </div>
-            <div class="program-title">
-                Dinner
-            </div>
-            <div class="program-description">
-                Over the last editions, Rwanda Day has brought together more than 35,000 Rwandans and Friends of Rwanda living in Europe,.
-            </div>
-        </div>
-    </div>
-            <button type="submit" name="Submit" class="join-button"> Join Rwanda Day 2021 </button>
-    </section>
-    <section class="featured-speakers">
-        <div class="speakers-title"> Featured speakers</div>
-        <div class="speakers-line"> </div>
-        <div class="speaker-section">
-        <!-- <div class="speaker-bar"> -->
-          <!--  <div class="speaker-image">  <img src="./general-assets/avatar.svg" alt=""> </div>
-            <div class="speaker-info"> 
-                <h3> Arthur Nkusi</h3>
-                <h5> Director of Multiplexing</h5>
-                <div class="speaker-line"></div>
-                <p>  Nirag Vashi, and I am a secondary education student at Western Michigan University 
-                    with a focus in science.  </p>
-            </div>
-        </div>
-        <div class="speaker-bar">
-             <div class="speaker-image"> <img src="./general-assets/avatar1.svg" alt=""> </div>
-            <div class="speaker-info"> 
-                <h3> Vicent BIRUTA </h3>
-                <h5> Minister of Social Affair</h5>
-                <div class="speaker-line"></div>
-                <p> Mr. Thierry Dufresne and Ms. Sonia Roland are starting the OFA-ARDI BEE Academy in Rwanda. </p>
-            </div>
-        </div>
-        <div class="speaker-bar">
-            <div class="speaker-image"> <img src="./general-assets/avatar2.svg" alt=""> </div>
-            <div class="speaker-info"> 
-                <h3> Cedrick Drik</h3>
-                <h5> Image Creation</h5>
-                <div class="speaker-line"></div>
-                <p>  17 Février, 2022 En marge du Sommet Union européenne-Union africaine qui débutera </p>
-            </div>
-        </div>
-        <div class="speaker-bar">
-            <div class="speaker-image"> <img src="./general-assets/avatar3.svg" alt=""> </div>
-            <div class="speaker-info"> 
-                <h3> Hope creations </h3>
-                <h5> Minister of MINICOM</h5>
-                <div class="speaker-line"></div>
-                <p> Février 14, 2022- Le Ministre Vincent Biruta a rencontré Antoine Thomas Nicéphore Fylla Saint-Eudes, </p>
-            </div> -->
-        <!-- </div>  -->
-        <div class="grid"></div>
-    </div>
-        
-    </section>
-    <section class="more">
-        <div class="more-button">
-            MORE
-        </div>
-    </section>
-    <section class="partners">
-        <div class="partners-title">
-            <h2> Partners</h2>
-        </div>
-        <div class="partners-logo">
-            <div class="partner-image"> <img src="general-assets/partner1.png" alt=""> </div>
-            <div class="partner-image"> <img src="general-assets/partner2.png" alt=""> </div>
-            <div class="partner-image"> <img src="general-assets/partner3.png" alt=""> </div>
-            <div class="partner-image"> <img src="general-assets/partner4.png" alt=""> </div>
-            <div class="partner-image"> <img src="general-assets/partner5.png" alt=""> </div>
-        </div>
-    </section>
-
-    <section class="footer">
-        <div class="footer-logo">
-            <img src="./desktop assets/COYSLH0UEAArcK7.jpg" alt="footer logo" />
+          <div class="program-icon">
+            <img src="./general-assets/light-bulb.png" alt="" />
           </div>
-          <div class="footer-copyright">
-            <p>2022 Eduport WorldWide. All Rights Reserved.</p>
-            <p class="footer-section-2">
-              달리 정하지 않은 웹 사이트 의 모든 내용 은 크리에이티브 커먼즈
-              저작자 표시 2.0 대한민국 라이선스 에 따라 이용할 수 있습니다 .
-              자세한 이용 기능 내용 과 허락 조건 은
-              http://eduport.org/licences/by/2.0/kr 를 보세요 .
+          <div class="program-title">Intro</div>
+          <div class="program-description">
+            <p>
+              Thousands of Rwandans and friends of Rwanda from across Europe and
+              beyond convened in Bonn
             </p>
           </div>
+        </div>
+
+        <div class="program-bar">
+          <div class="program-icon">
+            <img src="./general-assets/handshake.png" alt="" />
+          </div>
+          <div class="program-title">
+            <span> Welcome </span>
+          </div>
+          <div class="program-description">
+            <p>
+              Ndi Umunyarwanda and Our Identity Journey, Rwanda Works! The Land
+              of a million possibilities and opportunities
+            </p>
+          </div>
+        </div>
+
+        <div class="program-bar">
+          <div class="program-icon">
+            <img src="./general-assets/refresh.png" alt="" />
+          </div>
+          <div class="program-title">
+            <span> Update </span>
+          </div>
+          <div class="program-description">
+            Participants discussed Rwanda’s socio-economic progress and proposed
+            solutions to current and future challenges.
+          </div>
+        </div>
+
+        <div class="program-bar">
+          <div class="program-icon">
+            <img src="./general-assets/confetti.png" alt="" />
+          </div>
+          <div class="program-title">
+            <span> Party </span>
+          </div>
+          <div class="program-description">
+            <p>
+              This edition had a special feature called the “Career Corner”;
+            </p>
+          </div>
+        </div>
+        <div class="program-bar">
+          <div class="program-icon">
+            <img src="./general-assets/dinner.png" alt="" />
+          </div>
+          <div class="program-title">
+            <span> Dinner </span>
+          </div>
+          <div class="program-description">
+            <p>
+              Over the last editions, Rwanda Day has brought together more than
+              35,000 Rwandans and Friends of Rwanda living in Europe,.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button type="submit" name="Submit" class="join-button">
+        Join Rwanda Day 2021
+      </button>
+    </div>
+    <div class="featured-speakers">
+      <div class="speakers-title"><span> Featured speakers </span></div>
+      <div class="speakers-line"></div>
+      <div class="speaker-section"></div>
+    </div>
+    <div class="more">
+      <div class="more-button">MORE</div>
+    </div>
+    <section class="partners">
+      <div class="partners-title">
+        <h2>Partners</h2>
+      </div>
+      <div class="partners-logo">
+        <div class="partner-image">
+          <img src="general-assets/partner1.png" alt="" />
+        </div>
+        <div class="partner-image">
+          <img src="general-assets/partner2.png" alt="" />
+        </div>
+        <div class="partner-image">
+          <img src="general-assets/partner3.png" alt="" />
+        </div>
+        <div class="partner-image">
+          <img src="general-assets/partner4.png" alt="" />
+        </div>
+        <div class="partner-image">
+          <img src="general-assets/partner5.png" alt="" />
+        </div>
+      </div>
     </section>
-            <script src="menuDisplay.js"></script>
-            <script src="dataStore.js"></script>
-</body>
+
+    <div class="footer">
+      <div class="footer-logo">
+        <img src="desktop-assets/logo.jpg" alt="footer logo" />
+      </div>
+      <div class="footer-copyright">
+        <p>2022 Eduport WorldWide. All Rights Reserved.</p>
+        <p class="footer-section-2">
+          달리 정하지 않은 웹 사이트 의 모든 내용 은 크리에이티브 커먼즈 저작자
+          표시 2.0 대한민국 라이선스 에 따라 이용할 수 있습니다 . 자세한 이용
+          기능 내용 과 허락 조건 은 http://eduport.org/licences/by/2.0/kr 를
+          보세요 .
+        </p>
+      </div>
+    </div>
+    <script src="menuDisplay.js"></script>
+    <script src="dataStore.js"></script>
+  </body>
 </html>
