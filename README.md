@@ -14,7 +14,13 @@ Capstone project for Module 1 At Microverse
 
 ## Live Demo (if available)
 
-[Web Development Course](---------------------------)
+[Web Development Course]
+(https://sangwa7.github.io/capstone/index.html)
+
+
+## Description video
+
+(https://www.loom.com/share/d0548fbac8194c19a8dfdb2b8fd25beb)
 
 ## Getting Started
 
