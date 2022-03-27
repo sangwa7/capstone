@@ -63,8 +63,8 @@ set up on github pages
 👤 **Sangwa Didier**
 
 - GitHub: [Didier Sangwa](https://github.com/sangwa7)
-- Twitter: [Didier Sangwa](https://twitter.com/sangwa_7)
-- LinkedIn: [Sangwa Didier](https://www.linkedin.com/in/didier-sangwa-463054227)
+- Twitter: [@sangwa_7](https://twitter.com/sangwa_7)
+- LinkedIn: [Didier Sangwa](https://www.linkedin.com/in/didier-sangwa-463054227)
 
 ## 🤝 Contributing
 
