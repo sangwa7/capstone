@@ -12,10 +12,9 @@ Capstone project for Module 1 At Microverse
 - HTML, CSS & JS
 - Hint, Stylelint, Eslint
 
-## Live Demo (if available)
+## Live Demo 
 
-[Web Development Course]
-(https://sangwa7.github.io/capstone/index.html)
+[Click here for Live Demo] (https://sangwa7.github.io/capstone/index.html)
 
 
 ## Description video
