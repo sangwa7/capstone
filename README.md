@@ -64,7 +64,7 @@ set up on github pages
 
 - GitHub: [@sangwa7](https://github.com/sangwa7)
 - Twitter: [@sangwa7](https://twitter.com/sangwa_7)
-- LinkedIn: [sangwa7](https://linkedin.com/in/sangwa7)
+- LinkedIn: [sangwa7](https://www.linkedin.com/in/didier-sangwa-463054227)
 
 ## 🤝 Contributing
 
