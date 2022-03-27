@@ -60,10 +60,10 @@ set up on github pages
 
 ## Authors
 
-👤 **Max The Stranger**
+👤 **Sangwa Didier**
 
 - GitHub: [@sangwa7](https://github.com/sangwa7)
-- Twitter: [@sangwa7](https://twitter.com/sangwa7)
+- Twitter: [@sangwa7](https://twitter.com/sangwa_7)
 - LinkedIn: [sangwa7](https://linkedin.com/in/sangwa7)
 
 ## 🤝 Contributing
