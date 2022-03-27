@@ -14,7 +14,7 @@ Capstone project for Module 1 At Microverse
 
 ## Live Demo 
 
-Live Demo: [Click here for Live Demo] (https://sangwa7.github.io/capstone/index.html)
+Live Demo: [Click here for Live Demo](https://sangwa7.github.io/capstone/index.html)
 
 
 ## Description video
